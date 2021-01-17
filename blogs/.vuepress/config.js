@@ -111,7 +111,10 @@ module.exports = {
       repo: 'yindaheng98.github.io',
       clientId: 'a75a1830835fe3098df1',
       clientSecret: '87051d70dd49e135c6ccd5293c3dd89955d54c20',
-    }
+    },
+    record: '鄂ICP备2021000575号',
+    recordLink: 'https://beian.miit.gov.cn',
+    startYear: '2021'
   },
   "markdown": {
     "lineNumbers": true,
