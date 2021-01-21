@@ -27,6 +27,12 @@ export default {
   props: ['item', 'currentPage', 'currentTag'],
   computed: {
     coverSrc(){
+      let path = this.item.frontmatter.cover
+      if(path.slice(0,8)==="https://"||path.slice(0,7)==="http://"){
+        return path
+      } else if(path[0] === '/'){
+        path = path.slice(1)
+      }
       let base = this.$themeConfig.coverImgBase
       if(typeof base !== 'string' || base <= 0){
         base = ''
@@ -37,10 +43,6 @@ export default {
         if(base[base.length-1] !== '/'){
           base += '/'
         }
-      }
-      let path = this.item.frontmatter.cover
-      if(path[0] === '/'){
-        path = path.slice(1)
       }
       return base + path;
     }
