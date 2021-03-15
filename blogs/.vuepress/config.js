@@ -34,9 +34,9 @@ module.exports = {
   ],
   "theme": require.resolve('./theme'),
   "themeConfig": {
-    "repo": 'yindaheng98/My-docs/tree/master/学习笔记',
+    "repo": 'yindaheng98/Notebook/tree/master/学习笔记',
     "repoLabel": '查看源码',
-    "docsRepo": 'yindaheng98/My-docs',
+    "docsRepo": 'yindaheng98/Notebook',
     "docsDir": '学习笔记',
     "editLinks": true,
     "editLinkText": '帮助我们改善此页面！',
