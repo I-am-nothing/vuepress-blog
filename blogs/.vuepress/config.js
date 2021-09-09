@@ -99,6 +99,7 @@ module.exports = {
     "logo": "/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
+    "homepageMaxItems": 20,
     "lastUpdated": "更新于",
     "lastCreated": "创建于",
     "author": "Howard Yin",
