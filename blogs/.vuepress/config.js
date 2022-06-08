@@ -14,14 +14,14 @@ module.exports = {
       "link",
       {
         "rel": "stylesheet",
-        "href": "https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+        "href": "https://fastly.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
       }
     ],
     [
       "link",
       {
         "rel": "stylesheet",
-        "href": "https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css"
+        "href": "https://fastly.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css"
       }
     ],
     [
